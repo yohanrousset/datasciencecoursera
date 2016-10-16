@@ -1,7 +1,3 @@
-##CodeBook
-
-This document describes the data and transofrmations used by run_analysis.R and the definition of variables in Tidy.txt.
-
 ##Dataset Used
 
 This data is obtained from "Human Activity Recognition Using Smartphones Data Set". The data linked are collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
@@ -36,5 +32,4 @@ features.txt is read into featureNames.
 activity_labels.txt is read into activityLabels.
 
 ##Output Data Set
-
-The output data Tidy.txt is a a space-delimited value file. The header line contains the names of the variables. It contains the mean and standard deviation values of the data contained in the input files. The header is restructued in an understandable manner.
+The output data tidyData.txt is a a space-delimited value file.
